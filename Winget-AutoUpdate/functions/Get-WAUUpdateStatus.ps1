@@ -17,7 +17,7 @@ function Get-WAUUpdateStatus{
         }
     }
     else{
-        Write-Log "WAU AutoUpdate is Disabled. Current version : $WAUCurrentVersion" "Grey"
+        Write-Log "WAU AutoUpdate is Disabled. Current version : $WAUCurrentVersion" "Gray"
         $Script:WAUautoupdate = $false
     }
 }
